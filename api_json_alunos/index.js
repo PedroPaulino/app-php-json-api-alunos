@@ -20,4 +20,6 @@ app.get('/', function(req, res){
     res.send(alunos);
 })
 
-app.listen(8080);
+app.listen(8080,()=>{
+    console.log("Servidor está escutando na porta 8080");
+});
